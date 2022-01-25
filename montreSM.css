@@ -1,0 +1,33 @@
+@media screen and (max-width: 700px) {
+
+    header input {
+        margin-right: 5px;
+    }
+
+    h1 {
+        font-size: 30px !important;
+    }
+    h2 {
+        font-size: 20px ! important;
+    }
+    p {
+        font-size: 15px;
+       
+        margin-bottom: 5px !important;
+    }
+    .imageTete {
+        width: 80%;
+    }
+    .oxygene img {
+        margin-top:5px;
+        width: 60% !important;
+    }
+    .frequenceCardiaque img {
+        width: 60% !important ;
+    }
+    .Electrocardiograme img {
+        margin-top: 5px;
+        width: 60%;
+    }
+
+}

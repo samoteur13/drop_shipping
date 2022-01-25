@@ -1,0 +1,126 @@
+@font-face {
+    font-family: RussoOne;
+    src: url(font/RussoOne-Regular.ttf);
+}
+
+.slide_menu {
+    transform: translateX(0%)!important;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: RussoOne;
+}
+
+#Menu {
+    display: none;
+}
+
+header {
+    background-color: #DDC0BC;
+}
+
+.headerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menuDropdown {
+    display: flex;
+    background-color: #E63434;
+    justify-content: center;
+    transition: transform 2s;
+    transform: translateX(-100%);
+}
+
+h2 {
+    font-weight: 30px;
+    font-style: bold;
+}
+
+.espaceM {
+    margin-top: 150px;
+}
+
+.articlebackground {
+    margin: auto;
+    background-color: rgba(221, 192, 188, 0.5);
+    margin-top: 90px;
+}
+
+.commander {
+    background-color: #E63434;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    border-radius: 10px;
+}
+
+.ficheResponsive {
+    display: none;
+}
+
+.textbar {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.montreVente {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 125%;
+}
+
+.donnéefiche p:last-child {
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #DDC0BC;
+}
+
+footer>section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+textarea {
+    height: 60px;
+}
+
+.reseaux img {
+    width: 30px;
+}
+
+#contact {
+    width: 50%;
+    background-color: #333752;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    border-radius: 10px;
+}
+
+#contacterNous {
+    display: none;
+}
+
+#dropdownForm {
+    display: none;
+}
+
+footer>form {
+    display: flex;
+    flex-direction: column;
+}

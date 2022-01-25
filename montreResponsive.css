@@ -1,0 +1,124 @@
+@media screen and (max-width: 818px) {
+    #Menu {
+        display: flex;
+        display: block !important;
+    }
+    #menu {
+        display: none;
+    }
+    .presentation {
+        display: flex;
+        flex-direction: column;
+    }
+    .presentation h2 {
+        margin-bottom: 3rem;
+    }
+    .oxygene {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .frequenceCardiaque {
+        display: flex;
+        flex-direction: column;
+    }
+    .frequenceCardiaque img {
+        margin-bottom: 3rem;
+        width: 30%;
+    }
+    .Electrocardiograme {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Electrocardiograme img {
+        margin-bottom: 3rem;
+    }
+    .someil {
+        display: flex;
+        flex-direction: column;
+    }
+    .someil img {
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+    .video iframe {
+        width: 400px;
+    }
+    #vente2 {
+        position: absolute;
+    }
+    #commande {
+        width: auto;
+    }
+    section .ficheTechnique {
+        display: none !important;
+    }
+    .ficheResponsive {
+        text-align: center;
+        display: block !important;
+    }
+    hr {
+        margin: auto !important;
+        width: 80%;
+    }
+    .ficheResponsive p:first-child {
+        margin-bottom: 20px !important;
+        margin-left: 10%;
+        width: 40%;
+        text-align: left;
+    }
+    .ficheResponsive p:last-child {
+        margin-right: 10%;
+        width: 40%;
+        text-align: right;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    footer :last-child {}
+    footer>div {
+        padding: 20px;
+    }
+    #form {
+        display: none !important;
+    }
+    form {
+        width: 50%;
+    }
+    #contactDiv {
+        text-align: center;
+    }
+    #contacterNous {
+        border-radius: 10px;
+        color: white;
+        background-color: #333752;
+        font-weight: bold;
+        display: block !important;
+        visibility: visible;
+    }
+    #paimentS {
+        display: none;
+        visibility: hidden;
+    }
+    footer {
+        align-items: center;
+        display: flex;
+    }
+    footer>section {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .reseaux {
+        margin-bottom: 10px;
+    }
+    #dropdownForm {
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background-color: #e63434;
+    }
+    #dropdownForm>div {
+        text-align: center;
+    }
+}

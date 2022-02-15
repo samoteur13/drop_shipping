@@ -76,6 +76,7 @@
         flex-direction: column;
     }
     footer :last-child {}
+    
     footer>div {
         padding: 20px;
     }
